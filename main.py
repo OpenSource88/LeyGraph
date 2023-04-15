@@ -62,7 +62,7 @@ def main():
                         help='document time of each stage.')
     parser.add_argument("--sample-worker", type=int, default=4,
                         help="the number of sample worker for each gpu.")
-    parser.add_argument("--data-dir", type=str, default='/home/linhaiyang/data/gnndata',
+    parser.add_argument("--data-dir", type=str, default='/home/data/gnndata',
                         help="the directory of datasets")
     args = parser.parse_args()  
 
